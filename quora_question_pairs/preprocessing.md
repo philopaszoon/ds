@@ -2,7 +2,7 @@ Quora question pair study - preprocessing
 
 
 quora_cleanup_1:
-<br>https://github.com/philopaszoon/capstone1/blob/master/qfin/quora_cleanup_1.ipynb
+<br>https://github.com/philopaszoon/ds/blob/master/quora_question_pairs/quora_cleanup_1.ipynb
 * using tabs instead of commas to separate columns
 * cleaning up the IDs
 * assigning group IDs to exact duplicates and metagroup IDs to questions that are scored as matches
@@ -13,7 +13,7 @@ quora_cleanup_1:
 
 
 quora_contractions_3:
-<br>https://github.com/philopaszoon/capstone1/blob/master/qfin/quora_contractions_3.ipynb
+<br>https://github.com/philopaszoon/ds/blob/master/quora_question_pairs/quora_contractions_3.ipynb
 * expanding contractions [ he's -> he is,   won't -> will not,   etc ]
 * note that possessive contractions and contractions in named entities (which are mostly possessive as well) are not expanded
 

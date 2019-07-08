@@ -1,7 +1,7 @@
 Quora question pair study - Named Entities
 
 quora_named_entity_counts_cm:
-<br> https://github.com/philopaszoon/capstone1/blob/master/qfin/quora_named_entity_counts_cm.ipynb
+<br> https://github.com/philopaszoon/ds/blob/master/quora_question_pairs/quora_named_entity_counts_cm.ipynb
 
 The nature of language is such that small details can have a significant impact on the meaning of a sentence.  In this notebook, we take on one class of those details, named entities.  The objective is to pay special attention to the difference between sentences specifically where those differences are due to unmatched named entities. 
 

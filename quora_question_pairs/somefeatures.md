@@ -1,18 +1,18 @@
 Quora question pair study - adding some features
 
 quora_count_features_2:
-<br>https://github.com/philopaszoon/capstone1/blob/master/qfin/quora_count_features_2.ipynb
+<br>https://github.com/philopaszoon/ds/blob/master/quora_question_pairs/quora_count_features_2.ipynb
 * counting words and characters
 * exploring the odds of a match by char and word counts
 
 
 quora_quoted_strings_4:
-<br>https://github.com/philopaszoon/capstone1/blob/master/qfin/quora_quoted_strings_4.ipynb
+<br>https://github.com/philopaszoon/ds/blob/master/quora_question_pairs/quora_quoted_strings_4.ipynb
 * identifying sentences in which there is a quoted string
 
 
 quora_first_words_5:
-<br>https://github.com/philopaszoon/capstone1/blob/master/qfin/quora_first_words_5.ipynb
+<br>https://github.com/philopaszoon/ds/blob/master/quora_question_pairs/quora_first_words_5.ipynb
 * In many languages, the first word of a question is often a marker of what kind of question it is.  For example the question, "Who was your first grade teacher?", is obviously a question about a person.  It's also an example of a placeholder question, where placeholders like Who, Where, Why, What, When take the grammatical place of the object of the verb in the sentence.  This can be better seen by rewriting the question in a declarative form, "Your first grade teacher [was] Who".  Since a question about a person is unlikely to match a question about a place, simply recording what the first words are can be useful.
 
 * First words can also be helpful in distinguishing yes/no questions from placeholder questions.  Typically, questions that begin with a "to be" verb are yes/no questions.  ex: "Are we there yet?".  This class also includes words like Do, Would, Have, and others.

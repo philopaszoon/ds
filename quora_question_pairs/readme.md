@@ -3,17 +3,17 @@ Quora question pair study - introduction
 
 Code descriptions are in the following sections:
 
-[Preprocessing](https://github.com/philopaszoon/ds/blob/master/qfin/preprocessing.md)
+[Preprocessing](https://github.com/philopaszoon/ds/blob/master/quora_question_pairs/preprocessing.md)
 |
-[Adding features](https://github.com/philopaszoon/ds/blob/master/qfin/somefeatures.md)
+[Adding features](https://github.com/philopaszoon/ds/blob/master/quora_question_pairs/somefeatures.md)
 |
-[Libs](https://github.com/philopaszoon/ds/blob/master/qfin/splib.md)
+[Libs](https://github.com/philopaszoon/ds/blob/master/quora_question_pairs/splib.md)
 |
-[Word2vec](https://github.com/philopaszoon/ds/blob/master/qfin/w2v.md)
+[Word2vec](https://github.com/philopaszoon/ds/blob/master/quora_question_pairs/w2v.md)
 |
-[Named Entities](https://github.com/philopaszoon/ds/blob/master/qfin/name_entities.md)
+[Named Entities](https://github.com/philopaszoon/ds/blob/master/quora_question_pairs/name_entities.md)
 |
-[Learning](https://github.com/philopaszoon/ds/blob/master/qfin/learning.md)
+[Learning](https://github.com/philopaszoon/ds/blob/master/quora_question_pairs/learning.md)
 
 ### The problem
 
