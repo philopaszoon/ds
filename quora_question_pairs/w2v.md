@@ -1,5 +1,5 @@
 Quora question pair study - distance measurements and word2vec
-https://github.com/philopaszoon/capstone1/blob/master/qfin/quora_pos_models.ipynb
+https://github.com/philopaszoon/ds/blob/master/quora_question_pairs/quora_pos_models.ipynb
 
 
 What is word2vec
@@ -87,14 +87,14 @@ Finally, as a general observation, distance measurements are more likely to see 
 
 Thus, the best way to improve the result on this task is to find ways to tease apart sentences that have small distance measurements (or, below, a small angle and high cosine similarity) but that, nevertheless, don't have the same meaning.  In other words, find specific elements in the sentences that indicate a non-match.   
 <br> 
-![cosine similarity](https://github.com/philopaszoon/capstone1/blob/master/qfin/cos_scatter.png)
+![cosine similarity](https://github.com/philopaszoon/ds/blob/master/quora_question_pairs/cos_scatter.png)
 
 This is the approach I took in the named_entity_movement notebook.  In fact, this turned out to also be the most practical use of the Time Warped Distance measurement, but we'll get to that.
 
 <hr>
 
 Spacy distances:
-<br>https://github.com/philopaszoon/capstone1/blob/master/qfin/quora_spacy_distances.ipynb
+<br>https://github.com/philopaszoon/ds/blob/master/quora_question_pairs/quora_spacy_distances.ipynb
 
 I took advantage of built in Spacy vectors to explore a few more variations on the distance measurement idea, in particular removing stop words and lemmatizing words.    It's hard to say that these steps helped.  One problem may be that lemmatization outputs are not as consistent as might be hoped.   For example, Spacy often lemmatizes the word "good" into the word "well" which, to me, seems more ambiguous than the original word.  
 
@@ -104,7 +104,7 @@ What's more likely, however, is that lemmatization simply doesn't solve the unde
 <hr> 
 
 Spacy Reference Measurement:
-<br>https://github.com/philopaszoon/capstone1/blob/master/qfin/quora_spacy_reference_sims.ipynb
+<br>https://github.com/philopaszoon/ds/blob/master/quora_question_pairs/quora_spacy_reference_sims.ipynb
 
 Spacy has its own internal sentence comparison feature.  In this notebook, I run and plot the output of that feature simply as a reference point.  The data is not included in the final learning algorithm.  As far as I can tell, this measurement is simply cosine similarity based on Spacy's own vectors.
 
